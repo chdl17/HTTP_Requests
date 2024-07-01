@@ -20,8 +20,7 @@ class DataFetch():
             print(f"Unable to connect and status code:{e}")
             return None
 
-    def process_response(self,json_response):
-        
+    def process_response(self,json_response): 
         if json_response:
             results_json = json_response["results"]
             for attributes in results_json[:3]:

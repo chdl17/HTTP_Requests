@@ -1,0 +1,22 @@
+# Data Fetch Project
+
+This project demonstrates how to fetch data from a URL using Python, process the JSON response, and handle potential errors gracefully. The project uses environment variables to store the URL and includes methods for making HTTP requests and processing the responses.
+
+## Getting Started
+
+To get started with this project, follow the steps below:
+
+1. Clone the repository to your local machine.
+2. Ensure you have Python installed on your machine.
+3. Install the required libraries using pip:
+
+    ```bash
+    pip install requests pandas python-dotenv
+    ```
+
+## Environment Variables
+
+Create a `.env` file in the root directory of the project and add the following line:
+
+```env
+URL=your_api_url_here

@@ -20,6 +20,3 @@
     <p>Create a <code>.env</code> file in the root directory of the project and add the following line:</p>
     <pre><code>URL=your_api_url_here</code></pre>
     <p>Replace <code>your_api_url_here</code> with the actual URL you want to fetch data from.</p>
-    <h2>Usage</h2>
-    <p>Here is an example of how to use the <code>DataFetch</code> class:</p>
-    <pre><code>import requests
